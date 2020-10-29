@@ -3,3 +3,8 @@
 body {
     background-color: black;
 }
+
+.container {
+    background-image: url(../img/SLIDE/fond\ formulaire.jpeg);
+    border-radius: 30px;
+}
