@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>page contact bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<!--Annabelle intégration bootstrap maquette page contact -->
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 bg-dark">
+                <div class="col-md-2 mb-2 mt-4 pt-4">
+                    <img src="../Intégration/ASSETS/IMG/JOHN_COOK.jpg" class="rounded float-left " class="img-thumbnail" alt="logo" style="width: 7rem;">
+                </div>
+                <div class="col-md-3">
+                    <h1 class="font-weight-bold text-white">John Cook</h1>
+
+                    <h4 class=" text-secondary pb-5">Photographe</h4>
+                </div>
+
+                <!--BARRE DE NAVIGATION-->
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-secondary justify-content-center ">
+
+                    <!--MENU BURGER-->
+                    <button class="navbar-toggler" type="button" data-target="#navbarMenu" data-toggle="collapse" aria-controls="navbarMenu" aria-expanded="false" aria-label="toggle navigation">
+                             <!--Le span permet d'afficher l'intérieur du menu-->
+                             <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                    <ul class="navbar-nav ">
+                        <div class="collapse navbar-collapse" id="navbarMenu">
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white pr-4">
+                                    <h2>Accueil</h2>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white pr-4">
+                                    <h2>Présentation</h2>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white pr-4">
+                                    <h2>Actualité</h2>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white pr-4">
+                                    <h2>Portfolio</h2>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white pr-4">
+                                    <h2>Prestations</h2>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white pr-4">
+                                    <h2>Contact</h2>
+                                </a>
+                            </li>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <form>
+        <div class="container">
+            <div class="form-row justify-content-center">
+                <div class="form-group col-sd-12">
+                    <label for="inputName4"></label>
+                    <input type="Name" class="form-control" id="inputName4" placeholder="Name">
+                </div>
+                <div class="form-group col-sd-12">
+                    <label for="inputPhone4"></label>
+                    <input type="Phone" class="form-control" id="inputPhone4" placeholder="Téléphone">
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-sd-12">
+                    <label for="inputFname"></label>
+                    <input type="Fname" class="form-control" id="inputFname" placeholder="Prénom">
+                </div>
+                <div class="form-group col-sd-12">
+                    <label for="inputMail"></label>
+                    <input type="mail" class="form-control" id="inputMail2" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-md-6">
+                    <label for="inputAdress"></label>
+                    <input type="text" class="form-control" id="inputAdress" placeholder="Adresse">
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-sd-12">
+                    <label for="inputZip"></label>
+                    <input type="Zip" class="form-control" id="inputZip" placeholder="Code postal">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputTown"></label>
+                    <input type="text" class="form-control" id="inputTown" placeholder="Ville">
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-sd-12">
+                    <label for="inputMessage"></label>
+                    <input type="Message" class="form-control" id="inputMessage" placeholder="Votre message..." style="width: 400px; height: 200px;">
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group">
+                    <div class="form-check">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-secondary my-2">Envoyer</button>
+        </div>
+    </form>
+    <!-- Footer -->
+    <footer class="page-footer bg-dark ">
+        <div class="footer-copyright text-center text-white py-3 ">© 2008-2020 John COOK -
+            <a href="https://mdbootstrap.com/ " class="text-white "> Tous droits réservés</a>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!--JQuery first, then popper.js, then Bootstrap JS-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

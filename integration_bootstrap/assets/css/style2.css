@@ -1,6 +1,11 @@
 /* CSS pour le fond noir*/
 
 body {
-    background-color: black;
+    background-color:black;
     color: white;
+}
+
+.cont1 {
+    background-image: url(../img/SLIDE/fond\ formulaire.jpeg);
+    border-radius: 30px;
 }
